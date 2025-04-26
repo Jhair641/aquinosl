@@ -1,0 +1,32 @@
+/* Tabla responsiva */
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Wrapper para el selector de fechas */
+  .date-picker-wraper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .date-picker-wraper .date-picker-input {
+    padding: 6px;
+    background: none;
+    border: 1px solid #3f4d6c;
+    border-radius: 7px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .date-picker-wraper .date-picker-label {
+    margin-bottom: 6px;
+  }
+  
+  .date-picker-wraper .date-picker-input:focus {
+    border: 2px solid #534f87;
+    box-shadow: 0 0 8px #3f4d6c;
+    outline: none;
+  }
+  
